@@ -315,6 +315,10 @@ class User:
                 print("")
                 print("NOTICE: NO LEADERBOARD DATA FOUND FOR LEVEL 3")
 
+        else:
+            print("NOTICE: NO LEADERBOARD DATA FOUND")
+
+
 
 def main():
     print("")
