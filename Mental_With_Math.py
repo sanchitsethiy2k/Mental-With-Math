@@ -54,6 +54,7 @@ class Test:
                 print("Invalid Timemode Inputted (Did you input the NUMBER corresponding to the Timemode you want)")
                 continue
         times = [1, 3, 5]
+        print("")
         print(f"{times[timemode - 1]} min Timemode Chosen")
         return cls(name, level, times[timemode-1])
 
